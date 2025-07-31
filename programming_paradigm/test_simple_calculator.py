@@ -1,5 +1,5 @@
 import unittest
-from .simple_calculator import SimpleCalculator  # note the dot for relative import
+from simple_calculator import SimpleCalculator
 
 class TestSimpleCalculator(unittest.TestCase):
     def setUp(self):
@@ -32,3 +32,4 @@ class TestSimpleCalculator(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
